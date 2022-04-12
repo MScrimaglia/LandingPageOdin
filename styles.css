@@ -1,0 +1,174 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #c9cbd1;
+}
+
+.main1, .header, .footer{
+    background-color: #1f2937;
+}
+
+h1, h2 {
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+ header p, header li, .main1 p {
+    color: #E5E7EB;
+}
+
+.main1, .main2, .main3, .main4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    padding: 40px;
+}
+
+.placeholder {
+    background-color: #3c4147;
+    height: 300px;
+    width: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation {
+    height: 400px;
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    align-self: flex-start;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: whitesmoke;
+    border-style: solid;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.main1 button {
+    border-width: 0;
+}
+
+button:hover {
+    background-color: #2967cc;
+}
+
+.main2 {
+    flex-direction: column;
+}
+
+h3 {
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.illustrations, .illustration {
+    display: flex;
+}
+
+.illustration {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 70px;
+}
+
+.square {
+    border: solid rgb(81, 66, 148);
+    height: 170px;
+    width: 170px;
+    margin: 20px;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+}
+
+.subtext {
+    width: 220px;
+    text-align: center;
+    color: rgb(56, 56, 56);
+}
+
+.main3 {
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quote p {
+    color: rgb(56, 52, 52);
+    font-size: 32px;
+    font-style: italic;
+}
+
+.quote {
+    width: 900px
+}
+
+#signature {
+    text-align: end;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ad {
+    background-color: #3882f6;
+    width: 1600px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.ad button {
+    align-self: center;
+    height: 42px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.adleft h4 {
+    margin: 0;
+}
+
+.footer {
+    height: 70px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
